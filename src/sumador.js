@@ -1,5 +1,5 @@
-function sumar(a, b) {
-  return a + b;
+function contar(palabra) {
+  return 1;
 }
 
-export default sumar;
+export default contar;
