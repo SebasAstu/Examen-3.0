@@ -9,6 +9,15 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const tweet = textoTweet.value;
+  console.log(tweet)
 
-  div.innerHTML += "<p>" + tweet + "</p>";
+  if (tweet=="")
+  {
+    alert("No se puede ingresar un Post sin texto")
+  }
+  else{
+    div.innerHTML += "<p>" + tweet + "</p>";
+  }
+
+  
 });
